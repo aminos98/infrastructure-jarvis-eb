@@ -1,0 +1,11 @@
+solution_stack_name = "64bit Amazon Linux 2023 v4.3.2 running Docker"
+environment_name    = "ws-jarvis-dev-docker"
+application_name    = "ws-jarvis-dev-docker"
+endpoint            = "ws-jarvis-dev-docker.eu-west-1.elasticbeanstalk.com"
+vpc_id              = "vpc-0a0300eaef1749e1e" 
+instance_type       = "t3.medium"
+minsize             = 1
+maxsize             = 2
+public_subnets      = ["subnet-0583d191f70f127c5", "subnet-0318fdc96ce4b673b", "subnet-08842b3243c7aefd7", "subnet-045f89d3282e33e61"]
+elb_public_subnets  = ["subnet-XXXXXXXXXX", "subnet-XXXXXXXXX"] # ELB Subnet
+tier                = "WebServer"
